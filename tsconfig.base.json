@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@signsafe/core": ["packages/core/src/index.ts"],
+      "@signsafe/parsers": ["packages/parsers/src/index.ts"],
+      "@signsafe/sdk": ["packages/sdk/src/index.ts"],
+      "@signsafe/shared": ["packages/shared/src/index.ts"]
+    }
+  }
+}

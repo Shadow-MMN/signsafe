@@ -1,0 +1,11 @@
+{
+  "name": "@signsafe/core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@signsafe/shared": "workspace:*",
+    "@signsafe/parsers": "workspace:*",
+    "zod": "^3.22.0"
+  }
+}

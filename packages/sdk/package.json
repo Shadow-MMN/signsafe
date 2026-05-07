@@ -1,0 +1,10 @@
+{
+  "name": "@signsafe/sdk",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "dependencies": {
+    "@signsafe/core": "workspace:*",
+    "@signsafe/shared": "workspace:*"
+  }
+}
